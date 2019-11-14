@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="632d157c-2c85-45f0-b06a-3f74e9154dd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.staging" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/egg-frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.zh-CN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/app.bb42bfca.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-056aca04.44109ee6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-0632d1a6.a93077ab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-06eefc4c.d0df3a91.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-090669fe.6b0ea9f0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-177cc2ba.7c0354fc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-1789ada2.9b8c6c9b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-192682d9.b93091f3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-1bae90d0.55203a7a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-1d6f090d.cb8c5470.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-1f19f691.3c4ed690.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-1f609d90.41fbd3e9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-23a88740.7b66e17e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-2506358c.e362a850.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-30d1f59c.c8576698.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-336b50f4.454f6165.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-38386cc8.1b482a74.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-3a044fb0.32a93e60.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-3a5a8976.ca59485b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-462e5ac2.5323506e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-4b0004f6.860218f8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-4cca5e99.4db7ab71.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-4df1adcf.86a3271c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-528e9988.a6306a61.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-5e77a1ab.dc97a285.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-5ff98589.16f72efc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-6082c6e6.5db8da83.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-62e0d189.989cff17.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-706bab1e.1e7fed06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-71b4e939.b5c17e32.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-71e0e336.78da8dd7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-7348d640.e5e4dfbf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-7420837d.bd7a90b7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-7cbec06a.f6f62fab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-7e6ece3e.84766d4a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-9bcb5942.ffb3ee9b.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-ae54afc8.c00bc3c4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-b9f2ad7a.45be4f1a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-commons.38f5dd4d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-d0b05710.90408a17.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-d48db9a4.3ddd2d63.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-dea96e7c.854957e7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-e6b2a912.75e231b4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-ece8e0b2.ddccf722.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-fce9f434.1ffe1b6a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-fd05f054.f6ceb90e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/css/chunk-libs.3dfb7769.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fonts/element-icons.27c72091.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fonts/element-icons.2fad952a.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fonts/element-icons.6f0a7632.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fonts/element-icons.9b70ee41.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/401.089007e7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/404.a57b6f31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/404_cloud.0f4bc32b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/App.9a88e3d7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/tui-editor-2x.b4361244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/img/tui-editor.30dd0f52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/app.abb23d45.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-056aca04.c2ae6f14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-0632d1a6.dd7cd095.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-06eefc4c.e11446ba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-090669fe.7bdc0259.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-14da9915.bc4dcf58.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-177cc2ba.a7db5d53.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-1789ada2.f45954ce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-192682d9.754df248.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-1bae90d0.9950f1aa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-1d6f090d.4896c7e7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-1f19f691.2daa92bb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-1f609d90.5b5be0e2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-23a88740.3aa88c1f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2506358c.564b3d5a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0a519f.6ca29665.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0ac416.ab173d75.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0b2566.b4d77e3f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0bb23d.ee45b90e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0c0353.2a1bffb0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0c84d3.767bd6ce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0c8bf7.ea06e69f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0d6710.af99ec17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0e4e1f.1ed1eebd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0e6c67.ae8bf837.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0e944c.700db16a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d0f0a2e.e060b64f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d2102ea.20e98476.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d2104c6.833bebd3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d226cab.1e81c082.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d229205.4bde24a3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-2d230fe7.03ff5f06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-30d1f59c.5cbc9408.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-31d330bb.6f3fa6dc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-336b50f4.8585d123.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-38386cc8.0c4a8043.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-3a044fb0.968fde94.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-3a5a8976.6d4818f2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-40d407f0.083f2cea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-43f8ff7c.d189b5f0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-462e5ac2.cda8f0cb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-4b0004f6.90aca1f5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-4c9ef285.efd2bc7d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-4cca5e99.73d0ccae.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-4df1adcf.bcf09b0d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-5164a781.133150f7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-528e9988.abb940ad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-5bdd67a2.e87359dc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-5e77a1ab.9d996bf4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-5ff98589.cab0ad3a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-6082c6e6.8c39bfd8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-62e0d189.1de01ce7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-6e83591c.e706209c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-706bab1e.0a8045a8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-71b4e939.9376b8d4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-71e0e336.65365b62.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-7348d640.74ff0780.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-7420837d.6ab504ea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-74926326.c7806e9d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-7cbec06a.0950dee0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-7e6ece3e.29b796a4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-87968d96.984d8185.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-980a70e8.8c06c36e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-9bcb5942.c68c579e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-ae54afc8.cf7ddace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-b9f2ad7a.ccb4f385.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-bacc0f62.eefba1e2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-commons.17570a86.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-d0b05710.fb736c04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-d48db9a4.631ddfca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-dea96e7c.2b891501.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-e6b2a912.9e63ec8d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-ece8e0b2.b6a2a15d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-elementUI.d18de233.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-f788de52.c3899ec5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-fce9f434.3bc13c4d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-fd05f054.181fc6c6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/js/chunk-libs.f1627630.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/langs/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/codesample/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/skins/lightgray/skin.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/tinymce4.7.5/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/mocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/remoteSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/role/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/role/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/pprd/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/pprd/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/pprd/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/prod/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/prod/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/prod/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/test/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/test/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/test/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plop-templates/component/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plop-templates/component/prompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plop-templates/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plop-templates/view/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plop-templates/view/prompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plopfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/langs/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/codesample/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/skins/lightgray/skin.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/tinymce4.7.5/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/qiniu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/remoteSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/uploadFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/401_images/401.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/App.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/custom-theme/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/custom-theme/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/custom-theme/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BackToTop/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Charts/keyboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Charts/lineMarker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Charts/mixChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Charts/mixins/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DndList/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DragSelect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dropzone/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorLog/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GithubCorner/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderSearch/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImageCropper/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImageCropper/utils/language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImageCropper/utils/mimes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/JsonEditor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Kanban/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LangSelect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MDinput/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MarkdownEditor/defaultOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MarkdownEditor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PanThumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RightPanel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Screenfull/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Share/dropdownMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SizeSelect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sticky/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextHoverEffect/Mallki.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ThemePicker/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tinymce/components/editorImage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tinymce/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tinymce/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tinymce/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeTable/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeTable/eval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreeTable/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Upload/singleImage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Upload/singleImage2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Upload/singleImage3.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Upload/upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UploadExcel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/clipboard/clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/clipboard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/el-dragDialog/drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/el-dragDialog/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/el-table/adaptive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/el-table/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/permission/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/permission/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/waves/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/waves/waves.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directive/waves/waves.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filters/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/bug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/component.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/documentation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/drag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/example.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/excel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/exit-fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/eye-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/guide 2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/guide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/international.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/language.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/peoples.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/qq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/size.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/theme.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/tree-table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/wechat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Settings/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/TagsView/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/nested.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/tree-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/errorLog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/tagsView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/element-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/errorLog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/openWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/scrollTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/Export2Excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/Export2Zip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/charts/keyboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/charts/line.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/charts/mixChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/clipboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/avatarUpload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/backToTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/countTo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/dndList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/dragDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/dragKanban.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/dragSelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/dropzone.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/jsonEditor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/markdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/mixin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/splitpane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/sticky.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components-demo/tinymce.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/BarChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/BoxCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/LineChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/PanelGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/PieChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/RaddarChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/TodoList/Todo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/TodoList/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/TodoList/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/components/TransactionTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/admin/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/editor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/documentation/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/errorLog/errorTestA.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/errorLog/errorTestB.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/errorLog/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/errorPage/401.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/errorPage/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/components/ArticleDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/components/Dropdown/Comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/components/Dropdown/Platform.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/components/Dropdown/SourceUrl.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/components/Dropdown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/components/Warning.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/edit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/example/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/excel/components/AutoWidthOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/excel/components/BookTypeOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/excel/components/FilenameOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/excel/exportExcel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/excel/mergeHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/excel/selectExcel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/excel/uploadExcel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/guide/defineSteps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/guide/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/i18n-demo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/i18n-demo/local.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/authredirect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/socialsignin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu1/menu1-3/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/nested/menu2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pdf/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pdf/download.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pdf/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/permission/components/SwitchRoles.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/permission/directive.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/permission/page.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/permission/role.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/qiniu/upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/redirect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/svg-icons/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/svg-icons/requireIcons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tab/components/tabPane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tab/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/table/complexTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/table/dragTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/table/dynamicTable/fixedThead.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/table/dynamicTable/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/table/dynamicTable/unfixedThead.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/table/inlineEditTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/theme/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tree-table/custom/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tree-table/custom/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tree-table/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/tree-table/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/zip/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/components/Hamburger.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/formatTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/parseTime.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/utils/validate.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="45" />
+    <option name="y" value="23" />
+    <option name="width" value="1395" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="egg-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egg-frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="632d157c-2c85-45f0-b06a-3f74e9154dd9" name="Default Changelist" comment="" />
+      <created>1573730149159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573730149159</updated>
+      <workItem from="1573730150374" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="300000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="23" width="1395" height="877" extended-state="0" />
+    <layout>
+      <window_info id="DB Browser" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981523" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.40254778" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
