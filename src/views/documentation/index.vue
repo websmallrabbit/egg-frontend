@@ -5,7 +5,7 @@
     <!--    <a class="document-btn" target="_blank" href="https://panjiachen.gitee.io/vue-element-admin-site/zh/">国内文档</a>-->
     <!--    <dropdown-menu :items="articleList" style="float:left;margin-left:50px;" title="系列文章" />-->
 
-    <el-button type="primary" @click="downloadFile">从阿里云服务器下载xlsx文件</el-button>
+    <el-button type="primary" @click="downloadFile">从阿里云服务器下载图片文件</el-button>
     <el-button type="primary" @click="downloadUserInfo">下载用户信息表</el-button>
     <el-button type="primary" @click="download">下载在后端文件目录下的xlsx模版</el-button>
   </div>
